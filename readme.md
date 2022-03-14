@@ -9,10 +9,8 @@ golang >= 1.13.0
 Install:
 
 ```
-// 设置环境变量使得go支持私有库
-GOPRIVATE=code.zm.shzhanmeng.com
 // 安装
-go get -u code.zm.shzhanmeng.com/go-common/cron
+go get -u github.com/DavidXia1989/cron
 ```
 
 ``
@@ -31,5 +29,5 @@ Cron.AddFunc("*/10 * * * * ?", func() {
 Import:
 
 ```go
-import "code.zm.shzhanmeng.com/go-common/cron"
+import "github.com/DavidXia1989/cron"
 ```
